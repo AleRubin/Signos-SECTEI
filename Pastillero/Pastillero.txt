@@ -1,0 +1,9 @@
+/proyecto/
+│
+├── main.py
+└── sistema/
+    ├── __init__.py
+    ├── pantalla.py
+    ├── motor.py
+    ├── touch.py
+    └── telegram_bot.py
