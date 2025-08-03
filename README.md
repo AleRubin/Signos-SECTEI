@@ -2,7 +2,6 @@
 Dispositivos para tomar signos vitales
 
 Prototipo Presión Arterial
-
                            ┌─────────────────┐
                            │     main.py     │
                            │  (punto de arr.)│
@@ -12,9 +11,9 @@ Prototipo Presión Arterial
          │                         │                         │
          ▼                         ▼                         ▼
  ┌─────────────┐           ┌─────────────┐           ┌───────────────┐
- │  Monitor    │──────────▶│  Servidor  │            │   MemoriaSD  │
- │ Presion     │           │   Web       │           │ (memoria.py)  │
- │ (monitor.py)│           │(servidor.py)│           └───────┬───────┘
+ │  Monitor    │──────────▶│  Servidor   │           │   MemoriaSD    │
+ │ Presion     │           │   Web       │           │ (memoria.py)   │
+ │ (monitor.py)│           │ (servidor.py)           └───────┬───────┘
  └─────┬───────┘           └───────┬─────┘                   │
        │                           │                         │
        │ usa                       │ lee datos de            │ guarda CSV
@@ -28,8 +27,9 @@ Prototipo Presión Arterial
        │ mide presión
        │
  ┌─────▼──────┐       ┌───────────────┐
- │   Bomba    │       │   Válvula     │
- │ (bomba.py) │       │  (valvula.py) │
+ │   Bomba    │       │   Válvula      │
+ │ (bomba.py) │       │  (valvula.py)  │
  └────────────┘       └───────────────┘
+
 
 
